@@ -17,11 +17,11 @@
     - Ask providers of these
 - Either 
     - Low, medium, high categorization 
-    - # per year 
+    - \# per year 
 
 ### Cost Benefit Analysis
 - Evaluation of the cost to each risk 
-    - # per year times cost per each occurence
+    - \# per year times cost per each occurence
 - Evaluation of the cost to countermeasures
     - Same idea
 - Create a prioritization list 
