@@ -1,9 +1,0 @@
-
-Get Message to send
-Break into packets
-send N packets
-Wait for ack / NAK
-readjust send window and send new 
-Wait and repeat
-
-
