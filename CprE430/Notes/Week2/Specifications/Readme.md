@@ -15,7 +15,7 @@
     - Implementation is debate to have open or closed source code
 
 
-- Specification methods - How does this effect security
+- Specification methods / How does this effect security
     – English descriptions
         - Bunch of text and imprecise
         - Agree on meaning of words like agree, must, should
@@ -32,12 +32,12 @@
 
 ### Network Standards - Layout
 - Overview
-– Services provided - Function Calls
-– Services expected - Function Calls
-– Functions provided - Text
+– Services provided / Function Calls
+– Services expected / Function Calls
+– Functions provided / Text
     - Simple or Complex
-– Protocol and packet formats – Figs & Text
-– Timing and sequence of the packets – Figs & Text
+– Protocol and packet formats / Figs & Text
+– Timing and sequence of the packets / Figs & Text
 
 ### Organizations - Who is in charge
 - American National Standards Institute - ANSI
@@ -75,6 +75,9 @@
     - Person it is going to
     - Home it is going to
     - Return address
+
+![Mail](./addressing.png)
+
 - Digital 
     - Sending to which server and which application
     - Send to first router
@@ -82,6 +85,5 @@
     - Server passes up to application 
     - Application needs source and creates new packet back to source
 
-![Mail](./addressing.png)
 
 
