@@ -1,5 +1,8 @@
 
-### Layers By Hardware and Software 
+### Layers By Hardware and Software
+
+- Top layers are user space 
+- Bottom layers are OS / kernel space
 
 ![layers](./layered.png)
 
