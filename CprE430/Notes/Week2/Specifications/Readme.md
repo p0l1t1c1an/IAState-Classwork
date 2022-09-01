@@ -14,14 +14,13 @@
     - Define the internet is open
     - Implementation is debate to have open or closed source code
 
-
 - Specification methods / How does this effect security
-    – English descriptions
+    - English descriptions
         - Bunch of text and imprecise
         - Agree on meaning of words like agree, must, should
         - Open to interpretation
         - Edge conditions may not get handled/understood creating vulnerabilities
-    – Flow & timing diagrams / State diagram
+    - Flow & timing diagrams / State diagram
         - Open to interpretation
         - Assume talking to correct or same implementation
             - Don't catch edge cases
@@ -30,14 +29,14 @@
         - Open to interpretation
     - Always can be coded incorrectly creating vulnerabilities
 
-### Network Standards - Layout
+### Network Standards / Layout
 - Overview
-– Services provided / Function Calls
-– Services expected / Function Calls
-– Functions provided / Text
+- Services provided / Function Calls
+- Services expected / Function Calls
+- Functions provided / Text
     - Simple or Complex
-– Protocol and packet formats / Figs & Text
-– Timing and sequence of the packets / Figs & Text
+- Protocol and packet formats / Figs & Text
+- Timing and sequence of the packets / Figs & Text
 
 ### Organizations - Who is in charge
 - American National Standards Institute - ANSI
