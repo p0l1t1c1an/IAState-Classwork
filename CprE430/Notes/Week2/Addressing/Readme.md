@@ -49,7 +49,7 @@
     - Statically handed out by providers
 
 ### Port numbers 
-    - Default for applications
+- Default for applications
     - Well known ports
 
 ### Hostnames
