@@ -12,6 +12,7 @@ I have taken more classes than below. These are just the ones I find useful and 
 - CprE 489 - Computer Networking and Data Communications
 
 #### Computer Science
+- CS 228 - 
 - CS 311 - Introduction to the Design and Analysis of Algorithms
 - CS 309 - Software Development Practices
     - This is the Chirrup project that can be found on my github profile
