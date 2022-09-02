@@ -1,0 +1,25 @@
+Match the following vocabulary words to the phrase that best describes them in regards to network architecture.
+
+This function allows packets from multiple upper layers to share a lower layer.
+Multiplexing
+
+A technique for ensuring a receiving layer is not overwhelmed by a transmitting later.
+Flow control
+
+Interlayer communication is called a _______.
+Protocol. (I missed this one and said Service Access Point.)
+
+Packet _________ is when additional control information is added to the packet in the form of a header.
+Encapsulation
+
+A network is divided into different functional components called _______.
+Layers 
+
+Used to show the interaction between entities using a protocol.
+Protocol Diagram 
+
+The three phases of connection control are the request/connect phase, the _____________ phase, and the termination phase.
+Data transfer
+
+(Rest was mapping TCP/IP to the OSI model)
+
