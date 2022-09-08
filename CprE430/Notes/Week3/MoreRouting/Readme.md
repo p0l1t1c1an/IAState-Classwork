@@ -34,8 +34,12 @@
     - Calls / Open, Connect (in C code) 
 
 <!---Grab the server client image from notes and advanced example---!>
+
 ![server_client](./server_client)
+
+
 ![SC_with_internet](./sc_internet)
+
 
 - Multiplexing
     - Servers on one single port need to respond to multiple clients 
