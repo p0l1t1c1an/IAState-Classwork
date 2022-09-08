@@ -33,7 +33,6 @@
     - Client port is unique so multiple connections can't use the same port (multiplexing done by OS)
     - Calls / Open, Connect (in C code) 
 
-<!---Grab the server client image from notes and advanced example---!>
 
 ![server_client](./server_client)
 
@@ -41,12 +40,12 @@
 ![SC_with_internet](./sc_internet)
 
 
-- Multiplexing
-    - Servers on one single port need to respond to multiple clients 
-        - May be on different addresses and ports
-        - May have clients on same ports and different addresses
-        - May have clients from same address and different ports
-    - Interesting as they need to associate different authentication to ports and IP pairs in the application
+### Multiplexing
+- Servers on one single port need to respond to multiple clients 
+    - May be on different addresses and ports
+    - May have clients on same ports and different addresses
+    - May have clients from same address and different ports
+- Interesting as they need to associate different authentication to ports and IP pairs in the application
 
 ### Routing 
 - Minimal knowledge to route info (packet switching)
