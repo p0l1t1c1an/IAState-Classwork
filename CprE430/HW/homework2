@@ -1,0 +1,38 @@
+
+1.) I am pretty sure from my own experience / knowledge that the router/switch that the 2 devices are going through would manage a map between the port and Ethernet address. I know on my own switch I can hot swap the cable between the ports, and it will instantly update that mapping. I think that is done once a frame is sent from a different port with the same address that it update. So when there are 2 with the same address, that map keeps getting updated and may end up mismatching which device the packets are sent to. I reaffirmed this by viewing the Serverfault link below. 
+
+https://serverfault.com/questions/462178/duplicate-mac-address-on-the-same-lan-possible
+
+2.) I know that no interference would occur when the duplicate mac addresses are on duplicate networks. I'm pretty sure Ethernet addresses are just used by peer devices to identify where a peer is. Like what interface / port they connected on. So when they are on different networks, separate routers/switches are managing the Ethernet addresses and will not interfere with the routing of the devices.
+
+
+
+1.) I was less sure of what the answer to this would be, so I looked up and found an answer on stackexchange. From this, the same idea follows as the previous question. The mapping between MAC addresses and IP addresses would be inconsistent for all devices on the network, so it would end up sending between the devices. ARP would be used to determine what MAC goes to an IP. Some devices on the network could get one MAC address and the rest the other. Then, devices might incorrectly talk to the device. So when a packet comes in to the router, it will be a coin flip of which MAC address is mapped to the IP in the router.
+
+https://networkengineering.stackexchange.com/questions/32426/can-two-or-more-than-two-device-have-same-private-ip-in-a-lan
+
+2.) I believe that even if they are on separate networks, that devices all over the internet (using public IPs) would be inconsistent as to which devices are routed. I don't know the way that public devices establish a routing table exactly. I think ISPs would prevent this from occurring as they manage handing out IPs and associating that with their clients MAC addresses to route. But if they messed up as set up two IPs to MAC addresses, I would think that the same inconsistency would occur where some devices would learn of the second IP coming up and that one's neighbor's routing tables being messed up. This then leads to next and next routing tables now pointing to the wrong place until it is seen as fast/less hops to go to the original device.
+
+
+
+Hardware address: Typically, the hardware vendor assigns this address. (Can be overwritten by users.)
+
+Protocol Type: These are hardcode/defined that people have agreed upon for each protocol. On my computer, I find them in the /etc/protocols file.
+
+(I could change this but then I can no longer interact with other computers as the numbers won't match and protocols used are different.)
+
+Network Layer Address: Typical just IP address. This can be dynamically assigned at boot (DHCP) or statically assigned by a user/provider.
+
+Transport Protocol Type: (The book does not say) These are also statically assigned like protocol type as they also exist in the /etc/protocols file. (Both IP and TCP are in there so both protocol types are defined by the file.)
+
+Application Port Number: Some are standardize, 0 to 1023, as well known ports for certain portocols. Registered ports are 1024 - 49151 are for certain protocols but don't need system privileges generally and ephemeral ports are 49152 - 65535 that aren't assign and can be freely used.
+
+Application User Address: Supplied by the user in the application
+
+Hostname Address: These are name that have to be registered via a registration authority to assign a human readable name to an IP address. 
+
+
+My thought is that if the network administrator knows which prefix goes to which vendor then they get a few things out of it. First, some level of asset management is obtained by knowing which networking cards are being used on the network. Second, for devices like routers and switch, I believe the vendor OUI generally matches the vendor and that would help knowing which devices and system they need to manage. Like if you have a mix of Cisco and Juniper devices, the OUI tells you which are which and when remotely managing them they know beforehand. Finally, with the idea of asset management, say a vendor has a vulnerability in their cards or drivers then they know which machines are potentially affected.
+
+
+
