@@ -1,0 +1,63 @@
+Question 1
+If two computers on the same network had the same (public) IP address, what would happen if a packet arrived from the Internet?
+Only one of the computers will get the packet, depending on what the final router has for a hardware address in its ARP table.
+ 
+Question 2
+What would happen if two computers on different networks had the same IP address?
+Only one computer will receive the packet, depending on the network defined by the IP layer's destination address.
+ 
+Question 3
+What would happen if two computers on the same network had the same Ethernet address?
+Neither computer would be able to communicate.
+ 
+Question 4
+What would happen if two computers on different networks had the same Ethernet address?
+Nothing of interest happens.
+ 
+
+Question 5
+Network Address
+
+What:
+Address used to distinguish a network that has its own hosts and addresses
+How/Who:
+Internet Service Provider
+
+Question 6
+Port Number
+
+What:
+Address of a network-based application running on a computer
+How/Who:
+Application Configuration
+
+Question 7
+Host Name Address
+
+What:
+Address used as a unique identifier for a computer or server
+How/Who:
+Registration Authorities
+
+Question 8
+Static IP Address
+
+What:
+Address that is a part of the system configuration
+How/Who:
+System Admin
+
+
+Question 9
+
+A freeform packet header is often faster to parse than a fixed packet type header because its flexibility allows for more complex protocols.
+  False
+
+Correct. With fixed-length headers (as opposed to freeform), the processing of packets can be sped up because a layer can examine any part of the header independent of the other parts; freeform headers do allow for more complex protocols (see pp. 35-36 in your textbook).
+ 
+Question 10
+Since proprietary protocols are closed-source and subject to internal reviews, these protocols are more secure and act as a deterrent to an attacker.
+  False
+
+Correct. Although proprietary protocols are indeed closed-source, which makes viewing thesource code harder, attackers often reverse engineer such protocols in a short amount of time. This means closed-source protocols do not deter attackers (see page 23 in your textbook).
+ 
