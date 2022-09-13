@@ -66,7 +66,12 @@
 - Multiple entries per table 
     - Stacking switch behind switch works
 
-
-
-
-
+### Tapping the network
+- Inline between A and switch 
+- Copies from A and from Switch
+- Switch can copy traffic
+    - Mirror
+        - Copy of one port to another port
+    - SPAN
+        - Copy all ports and out one port
+        - May drop as lacks speed 
