@@ -1,0 +1,39 @@
+
+From q3 network picture
+
+Router 2
+Initial Routing table
+
+N1 == direct
+N2 == direct 
+N3 == not initially there
+Default == Router 1
+
+
+Host 4
+Initial Routing table
+N1 == not initially there
+N2 == direct
+N3 == not initially there
+Default == Router 2
+
+============================
+
+An ephemeral port is typically a source port for a user/client assigned by their operating system. 
+True
+
+The Internet uses a connection-based approach to pass a packet from router to router.
+False
+
+For the information within a packet, routers must know what's in the packet for the transport, physical network, and network (IP) layers but do not need to know anything else. 
+False
+
+If a client makes multiple connections to a web server, each connection is assigned a different Ephemeral port so all packets from the webserver will reach the client.
+True
+
+Consider the full name of the following host: bones.ee.iastate.edu. The hostname is bones.ee.iastate.
+False
+
+A network layer ID is used to tell which part of an address is the network and which part is the host.
+False
+
