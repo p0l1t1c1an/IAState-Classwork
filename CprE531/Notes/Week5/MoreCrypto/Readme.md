@@ -30,5 +30,5 @@
 ### Vignere Index of Coincidence
 - Counts frequency in cipher text
 - Sum of repeating a pair
-    - $\sum_{i=A}^{Z} {c[i]} \ {n} * {c[i] -1} \ {n-1}$ 
+    - $\sum_{i=A}^{Z} {c[i]} / {n} * {c[i] -1} / {n-1}$ 
 
