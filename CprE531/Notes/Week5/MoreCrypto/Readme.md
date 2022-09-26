@@ -30,7 +30,32 @@
 ### Vignere Index of Coincidence
 - Counts frequency in cipher text
 - Sum of repeating a pair
+    - $\sum_{i=A}^{Z} \frac{c[i]}{n} * \frac{c[i]-1}{n-1}$
+- Simplifies to sum of probabilities of each squared
+    - $\sum_{i=A}^{Z} p(i)^2$
+- Close but not equal 
+
+- Take by size of alphabet 
+    - Normalized IOC
+    - Takes how big alphabet out of number
 
 
-$\sum_{i=A}^{Z} \frac{c[i]}{n} * \frac{c[i]-1}{n-1}$
+- Properties to text
+    - Gets 1.73 for common uses of english language
+    - Certain order or characters don't matter
+    - Test the vignere columns to see if we get 1.73 
+    - Know that it is probably right key length
+    
+
+### One Time Pad
+- P == Plaintext w/ N chars
+- k == Cryptographic random key w/ N chars
+- Ci = (Pi + ki) mod |alphabet|
+- Never reuses the same key
+- Theoretically impossible to break
+- Will have to go through every key to break it
+    - In automated process
+
+
+
 
