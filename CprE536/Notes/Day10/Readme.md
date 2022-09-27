@@ -61,3 +61,75 @@
     - BSD are /etc/rc dot something
     - set of processes defined in /etc/inittab / each line is action to take
 
+### Controlled Boot Environment
+- Somethings change image at boot
+- Create controlled boot disk
+- Custom media to boot to preform forensics on the device
+
+
+- DOS
+- System files
+    - IO.Sys
+    - can change file systems
+
+
+### Boot Issues
+- Poweron/BIOS could have password
+- Then forensics cannot boot computer w/o passwd
+- Hardware vendor may have way to bypass
+- Could have owner unlock it
+    - But they don't have to
+
+### Disk Write Blocker
+- Prevent data being written to suspect drive
+- Ensure integrity of suspect drive
+    - Hash of the image
+    - Compare copy you get versus original hash
+- SW or HW
+- Examination process cannot modify image
+    - No longer admissible
+
+
+### SW Write Blocker
+- Changes the normal operation of the interrupt 0x13
+    - Which is read and write operations
+- Installs new interrupt 0x13
+- Application program inits IO operations with 0x13
+- Replacement intercepts IO
+    - The new interrupt can now not handle writes preventing modifying the device
+    - Firewall, allow read and block write
+- If blocked, returns to app without going to BIOS I/O
+- Allowed does go to BIOS I/O
+- Results returned
+    - A block could return fail or success depending on the SWB
+- Bypassable
+- Trusting the software and OS of forensic machine
+
+### HW Write Blocker
+- Device connected between the computer and storage device
+- Monitors and filters activitiy / data between computer and storage
+- Independent of client machine trying to read storage
+- Just trusting hardware device
+
+
+### SSD 
+- Operate independently for read and write operation
+    - Flushing is what I think of
+- These can remove information
+- They are small computers themselves 
+
+### Data Acquisition
+- Get data at lowest layer
+- Save every byte that may contain evidence
+- Dead vs Live
+    - Dead == Copy with assistance of suspect OS
+        - Boot from trusted CD
+    - Live == Copy while suspect OS is running
+        - Risks
+        - Tursting the suspect themselves
+        - Don't know what could have been done
+        - Can't turn off machine because we don't know what it will do
+- Error Handling
+    - Generally Accepted behavior for handling a bad sector
+        - log addreess and write 0s for data
+
