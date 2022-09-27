@@ -1,0 +1,82 @@
+
+For a successful attack on a network layer, the person using the attack code to attack a victim must have a sophisticated and deep understanding of computers and networks.
+False
+
+
+#####################################
+
+
+If you were to find and exploit a vulnerability that only you knew about, it would be called a(n) __________.
+Zero-day exploit 
+
+
+A weakness in the design or implementation of a protocol or application is called a(n) __________.
+Vulnerability
+
+
+A way to take advantage of a weakness in a protocol or application is called a(n) __________.
+Exploit
+
+
+Not designing a protocol with security in mind would be considered a(n) __________.
+Design Flaw
+
+
+A person who uses the attack code but doesn't understand the vulnerability itself is called a(n) __________.
+Script Kiddie
+
+
+Deciding how important something is and whether it is worth protecting is called __________.
+Risk Assessment (Original said Impact)
+
+
+The degree to which a device or object will be attacked is called a(n) __________.
+Threat (Originally said Risk)
+
+
+########################################
+
+
+Broadcast Packet
+A Packet sent to every host
+
+
+Ping 
+Sends probe packet to a target host to see if it is reachable
+
+
+Host-to-user authentication
+When app, host, or network layer proves identity to a user
+
+ 
+SYN flood attack
+An attacker violates threeway handshake
+
+ 
+Authentication-based vulnerability
+Vuln in authentication between app, hosts, or network
+
+
+##########################################
+
+
+
+1. Attacker is on User B's local network 
+Attack Point 3
+
+2. Attacker has taken over Target Computer B1 
+Attack Point 4
+
+3. Attacker is on the Internet attacking Target Computer B1's application layer
+AP 2
+
+4. Attacker is able to read the encrypted data sent to User B 
+AP 4
+
+5. Attacker can attack any layer of User A's local network 
+AP 1
+
+6. Attacker is on the Internet and can attack the IP layer of all devices between itself and the target computer
+AP 2
+
+

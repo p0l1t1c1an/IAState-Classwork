@@ -122,7 +122,7 @@
 - Get data at lowest layer
 - Save every byte that may contain evidence
 - Dead vs Live
-    - Dead == Copy with assistance of suspect OS
+    - Dead == Copy without assistance of suspect OS
         - Boot from trusted CD
     - Live == Copy while suspect OS is running
         - Risks
@@ -132,4 +132,50 @@
 - Error Handling
     - Generally Accepted behavior for handling a bad sector
         - log addreess and write 0s for data
+
+- Steps 
+    - Read from Source
+    - Write to forensic devices destination
+
+- Issues
+    - How to:
+        - Access Data
+        - Handle Errors
+        - Reduce Risk of writing suspect drive
+
+
+### Read data from source
+- Direct Access or BIOS Access
+- Direct
+    - OS or toolkit accesses device directly
+- BIOS 
+    - Go through BIOS systems
+    - Go through API like open, read, write
+    - BIOS uses interrupt 0x13
+- Can get different sizes
+    - I think BIOS would return at end of data
+
+
+### Write Data
+- File, Hard disk, CD/DVD, Cloud
+- File format 
+    - Raw image
+    - Embedded: data plus meta data like hash and time
+    - Raw image and separate file for meta data
+
+### Removable Media
+- Have partitions
+- Floppy is FAT12 with no table
+    - treated as 1 partition
+- USB Storage tokens (like hardware token)
+    - No partitions but can have them
+- Flash cards
+    - Have partition table
+    - Use FAT
+- CD-ROM
+    - ISO 9660 Format
+    - Can be written once
+    - Some allow more 
+    - create sessions with small portion of disk
+        - Could view all sessions?
 
