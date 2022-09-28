@@ -1,0 +1,41 @@
+
+
+Which of the following fields are excluded from the Ethernet frame format after the packet has been extracted from the network?
+Preamble
+Start Frame Delimeter
+Frame Check Sequence
+
+################################
+
+
+1. The destination address field of an Ethernet frame packet has 6 bytes, 
+which is represented by 12 hex values (quantity).
+
+2. The source address field of an Ethernet frame packet has 6 bytes, 
+which is represented by 12 hex values (quantity).
+
+3. The type or length field of an Ethernet frame packet has 2 bytes, 
+which is represented by 4 hex values (quantity).
+
+
+#################################
+
+Using the background information provided and your answers to questions 1 & 2, look at the hex packet below and identify the following:
+
+Packet (extracted from the network):
+6c40 0889 c448 f832 e4a7 fb38 0806 0001 0800 0604 0002 f832 e4a7 bf38 c0a8 0101 6c40 0889 c448 c0a8 01f2
+
+Destination Address: 6c400889c448
+Source Address: f832e4a7fb38 
+Type/Length: 0806
+Data (aka Payload): 0001080006040002f832e4a7bf38c0a801016c400889c448c0a801f2
+
+Based on the destination address for the packet above, what Ethernet address type does this packet have (unicast, multicast, or broadcast)
+unicast
+
+################################
+
+Based on the answer in Question 3, the value identified for the Ethernet packet type corresponds to which protocol?
+ARP
+
+

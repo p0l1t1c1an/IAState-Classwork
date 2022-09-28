@@ -1,82 +1,87 @@
 
-For a successful attack on a network layer, the person using the attack code to attack a victim must have a sophisticated and deep understanding of computers and networks.
-False
+Domain Name Service (DNS) Protocol
+53
+
+Echo Protocol
+7
+
+HyperText Transfer Protocol (HTTP)
+80
+
+Hypertext Transfer Protocol Secure (HTTPS)
+443
+
+Post Office Protocol (POP3)
+110
+
+Secure Shell (SSH) Protocol
+22
+
+Simple Mail Transfer Protocol (SMTP)
+25
+
+Telnet Protocol
+23
 
 
-#####################################
+The client-server model, where a client application (an application requesting a service or resources) talks to a server application (an application waiting for another application to connect to it), is used throughout the Internet. This is an important concept in networking and will be referenced throughout the semester.  
+
+What are the four pieces of information used to uniquely identify each client-server connection (from the user/client point-of-view)?
+
+Client IP Address (local address)
+Client Port
+Correct answer:
+Server Port
 
 
-If you were to find and exploit a vulnerability that only you knew about, it would be called a(n) __________.
-Zero-day exploit 
+The DNS system is laid out in a tree structure with a set of root DNS servers that have knowledge about the location of all of the first-level domain servers. This means root servers are the servers at the root of the Domain Name System (DNS) hierarchy. Using information gathered from the Internet, how many root name server IP addreses* are there?
+
+*Note: This number does not represent the number of physical servers. There are many instances of root servers to ensure reliability and redundancy.
+Correct answer:
+13
 
 
-A weakness in the design or implementation of a protocol or application is called a(n) __________.
-Vulnerability
+Consider an IP packet routed across the Internet and a router that is neither the packet's source nor destination. What are network layer headers important to the router as it passes the IP packet along?
+
+Network layer headers containing important information
+Physical Layer
+Network Layer
+
+Network layer headers the router does not care about
+Application Layer
+Transport Layer
 
 
-A way to take advantage of a weakness in a protocol or application is called a(n) __________.
-Exploit
+##############################################
+
+Look at first routing picture
+
+What is the Next Hop for Network 1 in Computer D2's initial route table?
+Direct
+
+What is the Next Hop for Network 2 in Computer D2's initial route table?
+Not included
+
+What is the Next Hop for Computer D3 in Computer D2's initial route table?
+Not included
+
+What is the Next Hop for the Default entry in Computer D2's initial route table?
+Router One
 
 
-Not designing a protocol with security in mind would be considered a(n) __________.
-Design Flaw
+##############################################
 
+Look at second routing picture
 
-A person who uses the attack code but doesn't understand the vulnerability itself is called a(n) __________.
-Script Kiddie
+Would benefit from dynamic routing
+Router R1
 
-
-Deciding how important something is and whether it is worth protecting is called __________.
-Risk Assessment (Original said Impact)
-
-
-The degree to which a device or object will be attacked is called a(n) __________.
-Threat (Originally said Risk)
-
-
-########################################
-
-
-Broadcast Packet
-A Packet sent to every host
-
-
-Ping 
-Sends probe packet to a target host to see if it is reachable
-
-
-Host-to-user authentication
-When app, host, or network layer proves identity to a user
-
- 
-SYN flood attack
-An attacker violates threeway handshake
-
- 
-Authentication-based vulnerability
-Vuln in authentication between app, hosts, or network
-
-
-##########################################
+Would not likely benefit from dynamic routing
+Host H3
+Router R5
+Host H1
 
 
 
-1. Attacker is on User B's local network 
-Attack Point 3
-
-2. Attacker has taken over Target Computer B1 
-Attack Point 4
-
-3. Attacker is on the Internet attacking Target Computer B1's application layer
-AP 2
-
-4. Attacker is able to read the encrypted data sent to User B 
-AP 4
-
-5. Attacker can attack any layer of User A's local network 
-AP 1
-
-6. Attacker is on the Internet and can attack the IP layer of all devices between itself and the target computer
-AP 2
 
 
