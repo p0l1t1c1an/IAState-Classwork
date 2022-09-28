@@ -1,0 +1,35 @@
+
+
+It is important to consider the different network layers - what layers can be attacked and when? There are several different attack points in the network model. Consider Alice and Bob, who are on two different networks and are communicating with each other. For the next several questions, select which network layer or layers can be attacked in the scenario presented. 
+
+
+######################3333
+
+
+If the attacker is located on Bob's network, which network layer(s) can be attacked (Bob's computer)? Select all that apply. 
+
+App, Transport, Network and Physical 
+
+
+If the attacker is located on the Internet, which network layer(s) can be attacked (Bob's computer)? Select all that apply.
+
+App, Transport, and Network 
+(Book lacks statement of network as possible to attack.)
+
+
+ If the attacker is located on the Internet, which network layer(s) on the routers between Alice and Bob's respective networks can be attacked? Select all that apply.
+
+Just Network
+
+
+If the attacker has compromised a computer connected to the same local area network that Alice is connected to, which network layer(s) can be attacked over the Internet? Select all that apply. 
+
+App, Transport, Network and Physical 
+
+
+If an attacker is nowhere near Alice's computer but is remotely connected to the computer, without any foothold on the network and without compromising the computer, which network layer(s) cannot be attacked? Select all that apply.
+
+App, Transport, and Network 
+(That is what the answer says but I think since you can change state of physical address you could technically attack the physical layer.)
+
+

@@ -1,0 +1,28 @@
+
+Repeats many questions from homeworks
+Only showing new ones
+
+
+
+
+Match the information and example to the type of vulnerability listed below.
+
+Design vulnerabilities
+
+What it is: not be easily mitigated, may require mitigation in higher-layer protocols
+Example: not considering security ramifications in the protocol
+
+For the following attacks, match the name to its description and to its type of security vulnerability within the network taxonomy.
+
+Packet Sniffing
+What it is: capture all of the traffic on a network
+Where it is in the taxonomy: Traffic based Attack
+
+SYN Flood
+What it is:  repeated, unfinished TCP three-way handshake connections
+Where it is in the taxonomy: Protocol-Based Vulnerability 
+
+
+True or False: Risk can be thought of as a relationship between vulnerabilities, threats, and impact.
+True
+
