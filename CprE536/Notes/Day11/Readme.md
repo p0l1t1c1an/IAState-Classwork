@@ -53,5 +53,48 @@
 - Disadvantage
     - Impact system preformance
 
+- Hibernate
+    - Power management disable process, hdd, .. and save mem to disk
+    - Not clear if exact content or all memory is saved
+    - My thought is it might be compressed in some way
 
+
+### Limitations of Software procedures
+- Trusting the OS / kernel and utils on machine of suspect
+- Runs new process
+    - Requires kernel mem to execute
+    - Could overwrite eveidence
+    - Could write to swap space
+
+### PCI System
+- Northbridge 
+    - Host/PCI bridge
+- Southbridge
+    - PCI to ISA
+    - Interrupt controller
+    - IDE controller
+    - USB controller
+    - DMA controller
+- DMA 
+    - Direct memory to system memory without use of CPU
+
+
+### PCI acquistion Card
+- Own processor
+- Used to communicate with northbridge through PCI bus to get memory access
+- Writes to external connection
+
+
+### Imaging procedure
+- Acq card is powered 
+- When external switch accessed
+    - streams memory to external device
+
+### Testing
+- Compare to dd command
+- Only difference is dd process memory
+
+### Hardware Issues
+- Needs plug in card while power is 
+- Can't be done as we need to power off to do so
 
