@@ -48,7 +48,7 @@
 - 17 == UDP
 
 ### Fragmentation
-![frag](./frag)
+![frag](./frag.png)
 
 - Other example
     - Break data into 3 packets
