@@ -182,7 +182,6 @@
 - The pointer identifies the octed in the header that caused the problem
 
 
-
 ### ICMP Timestamp
 - Type = 13 (echo)
 - Type = 14 (reply)
