@@ -1,0 +1,84 @@
+
+
+Answer formatting (same as homework):
+
+    Include any necessary leading zeros (e.g., enter 0101, not just 101).
+    Use lowercase letters only.
+    Only use 1-9 and a-f in your answer (i.e., no special formatting, do not use 0x prefix).
+
+Packet:
+
+5b40 0890 3c5c f132 c448 037e 0800 4500
+0054 2b0d 0000 f101 0393 3460 bfc2 c0a8
+0420 0000 adfa 0472 0006 6143 7417 000a
+8d25 0809 0a0b 0c0d 0e0f
+
+For the hex packet above that has been extracted from the network, identify the following:
+
+Destination Address: 5b40 0890 3c5c
+
+Source Address: f132 c448 037e
+
+Type/Length: 0800
+
+1st 15 bytes of Data (aka Payload):
+4500 0054 2b0d 0000 f101 0393 3460 bf
+
+
+##########################################
+
+
+Consider the following two hex packets, that have been extracted from the network. Which packet below is an IP packet?
+
+Packet 1
+ffff ffff ffff 6c40 0889 c448 0806 0001 0800
+0604 0001 6c40 0889 c448 c0a8 0420 0000
+0000 0000 c0a8 0415
+
+Packet 2
+ffff ffff ffff 5014 798d 123a 0806 0001
+0800 0604 0001 5014 798d 123a c0a8 0432
+ffff ffff ffff c0a8 0401 0000 0000 0000
+0000 0000 0000 0000 0000 0000 0000 0000
+0000 0000 0000 0000 0000
+
+
+Neither
+
+
+############################################
+
+
+Packet:
+
+085b 3925 e310 001d 0944 1485 0806 0001
+0800 0604 0001 001d 0944 1485 0a00 0032
+0000 00000 0000 0a00 000b
+
+Based on the destination address for the packet above, what Ethernet address type does this packet have?
+
+Unicast 
+
+
+##########################################
+
+
+Consider a network with VLAN 1 and VLAN 2. If a device is connected to port 3 of a switch means it falls into VLAN 1, then this is an example of... 
+
+static vlans, port 3 always mapped
+
+
+##########################################
+
+
+Critical Thinking - Pick the best option for the scenario described.
+
+In an organization that allows IoT devices, such as security cameras or sensors, on its network, would it be advantageous to have a NAC environment?
+
+(Said yes, because update or install NAC approved app to authenticate. Wrong because IoT can't really install apps)
+
+Yes, because they can be grouped together in an IoT vlan
+
+
+
+
