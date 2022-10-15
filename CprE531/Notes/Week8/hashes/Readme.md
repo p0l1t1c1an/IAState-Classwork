@@ -2,11 +2,13 @@
 
 ### Hash Functions
 - Sha256 round
+
 ![sha256](sha256.png)
 
 - Compression function
 
 - Davies Meyer compression function
+
 ![davie](davies_meyers.png)
 
 ### Digital Signatures
