@@ -54,9 +54,9 @@
 
 ### ESP
 - Security Parameters: help identify the encryption algorithm (eg: DES, blowfish)
-– Sequence number: an ever increasing number used for replay
-– Authentication data: a hash of everything, proves non-alteration
-– Data, Padding, Length, and Next fields are all encrypted
+- Sequence number: an ever increasing number used for replay
+- Authentication data: a hash of everything, proves non-alteration
+- Data, Padding, Length, and Next fields are all encrypted
 
 
 ![ESP_packet2](./ESP_packet.png)
