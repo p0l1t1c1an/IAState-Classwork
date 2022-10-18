@@ -41,3 +41,10 @@
 
 ![tcp_stream](./tcp_stream.png)
 
+### Special TCP
+- Data Stream Push
+    - Used to force the delivery of all data waiting to be sent
+- Urgent Data Signaling
+    - Provides a means of informing the destination TCP user that urgent data is in the incoming data stream
+- Error Reporting
+    - TCP will report service failure stemming from catastrophic conditions
