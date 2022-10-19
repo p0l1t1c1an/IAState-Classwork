@@ -81,7 +81,7 @@
 ### Premaster Secret
 - PMS = g^X^Y mod p
 - Generate master secret
-- Pseudo rand function = fnacy hash
+- Pseudo rand function = fancy hash
     - PMS, master secret, cR, sR, first 48 bytes
     - PMS is secret
     - master secret is label
@@ -93,4 +93,54 @@
         - ...
     - A(0) == seed
     - A(i) hmac_hash(secre, A(i-1))
+
+### Keys
+- Generate all 4 keys
+- PRF(MS, "key expansion" sR || cR until bytes computed
+    - client MAC key
+    - server mac key
+    - client enc key
+    - server enc key
+    - Both sides know all
+- Enable in record (protocol) label
+
+### Finishes Messages
+- 7 Client 
+    - PRF(MS< "client finished", hash(all handshake messages))
+    - Server confirms information is correct
+- 8 Server
+    - PRF(MS< "server finished", hash(all handshake messages))
+    - Client confirms informatio is correct
+
+### Sending Data
+- Looks like a socket and sends data over the connection encrypted
+
+
+### Issuer / CA example
+- Alice and Bob trust CA
+    - have CA<<CA>>
+- Alice sends CA<<Alice>>, Alice, MSG
+    - Sign(MSG, $d_A$)
+- Bob verifies Cert
+    - Alice is subject
+    - time is valid
+    - check signature $e_{CA}$
+    - Bob has $e_A$, trust it is from Alice
+- Bob verifies signature
+- Assuming Alice only knows the private key
+
+### Time Limit
+- if d is leaked, limits useful life of cert and d
+
+### CRL
+- Certificate Revocation List
+- Issue maintains this 
+- Browser requests list and check if cert's serial number is revoked
+- not scalable and slow
+- Server can check and say it is not revoked
+    - Extension in the TLS / cert
+
+
+
+
 
