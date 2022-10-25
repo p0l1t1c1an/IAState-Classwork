@@ -48,3 +48,51 @@
     - Provides a means of informing the destination TCP user that urgent data is in the incoming data stream
 - Error Reporting
     - TCP will report service failure stemming from catastrophic conditions
+
+### TCP Handshake
+
+![handshake](./tcp_handshake.png)
+- Send different seq numbers
+
+### Data Transfer
+- Seq number is the number of bytes
+- Flow control by credit allocation 
+    - Can only send so much data unacknowledged by recv
+
+![data](./tcp_data.png)
+
+### Connection Termination
+
+![term](./tcp_term.png)
+
+
+### Header Format 
+
+![header](./tcp_header.png)
+
+
+![flags](./tcp_flags.png)
+
+
+- Flag Functions
+    - URG / Packet contains urgent data
+    - ACK / Acknowledgment number is valid
+    - PSH / Data should be pushed to the application
+    - RST / Reset Packet
+    - SYN / Synchronize packet
+    - FIN / Finish packet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
