@@ -57,18 +57,29 @@
 ### Data Transfer
 - Seq number is the number of bytes
 - Flow control by credit allocation 
-    - Can only send so much data unacknowledged by recv
+    - Set window size (how much data sent)
+    - Can only send WS data unacknowledged by recv
+    - Have to wait for data to be acked to send more 
 
 ![data](./tcp_data.png)
 
 ### Connection Termination
 
+- A is how much I have sent
+- B is how much you have sent
+
 ![term](./tcp_term.png)
 
+- Abrupt termintation
+    - RST Flag
+    - SN and Ack number
 
 ### Header Format 
 
 ![header](./tcp_header.png)
+
+- 32 bits across
+- Flags are 6 bits
 
 
 ![flags](./tcp_flags.png)
@@ -81,18 +92,4 @@
     - RST / Reset Packet
     - SYN / Synchronize packet
     - FIN / Finish packet
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
