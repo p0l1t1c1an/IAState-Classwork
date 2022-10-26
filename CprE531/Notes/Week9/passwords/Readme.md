@@ -58,6 +58,4 @@
             - Modify common passwords
             - Append numbers common
             - ...
-    - 
-
 
