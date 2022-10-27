@@ -124,14 +124,21 @@ their peers to preform the appropriate filtering
 
 - False positives
     - At most, rate p/d 
-    - neighbors at most d, p is tuning
-    - np/(1-p)
+    - Router neighbors (degree) is d, p is tuning
+    - np/(1-p) 
+
+- P = ${(1 - {(1 - 1/m)}^{kn})}^{k}$
+    - P = $(1 - e^-kn/m)^k$
+
+- Once in a while, archive bloom field and clear
+- SPIE not implemented on every router
+    - Only most critical base on topology
 
 
 
-
-
-
+- Hierarchical Bloom Filter
+    - Breaks down string into multiple fields 
+    - Block base bloom filter
 
 
 
