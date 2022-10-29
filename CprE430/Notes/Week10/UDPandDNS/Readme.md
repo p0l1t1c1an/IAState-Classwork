@@ -94,8 +94,8 @@
     - Authoriative
     - Additional records
 
-![packet1]()
-![packet2]()
+![packet1](./query.png)
+![packet2](./response.png)
 
 ### Name Representation
 - String
