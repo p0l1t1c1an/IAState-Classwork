@@ -114,4 +114,40 @@
     - First person gets 1st server
     - Second gets 2nd ... until 6th restarts
 
+# DNS Attacks
+
+### Header and Protocol 
+- Leak Data through firewall
+
+### Authentication 
+- Compromise DNS Servers 
+– Rouge DNS server
+- Point to wrong DNS Answers
+    - Point to few things so people don't figure it out
+– DNS cache poisoning
+- Local resolver malware
+    - Out of scope
+- Depending on where different scope of damage
+    - Upstream users (beyond your control) 
+        - Only affect requests to domain addresses compromised
+    - Downstream users (in the compromised domain)
+        - Can be sent anywhere for any request
+
+![damage_scope](./scope.png)
+
+### Traffic 
+- Flooding
+    - Centralization / DNS AAS 
+    - Traffic Flooding
+        - Cause delay or drop in responses
+        - Clients try 4 times
+
+### DNSSEC
+- Authenticated DNS with certificated
+- DNS is a major weak point
+    - it being down == internet down
+
+# TLS
+![tls](./tls.png)
+
 
