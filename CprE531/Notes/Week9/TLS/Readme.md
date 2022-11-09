@@ -58,9 +58,9 @@
 
 ### Server Cert
 - 2b Server
-    - CA1 <<Server>>
-    - CA2 <<CA1>>
-    - CA3 <<CA2>>
+    - CA1 << Server >>
+    - CA2 << CA1 >>
+    - CA3 << CA2 >>
 - 3 Client 
     - verifies cerificates to find trusted trust anchor
     - Sign must verify, times are valid, type of cert ...
@@ -106,10 +106,10 @@
 
 ### Finishes Messages
 - 7 Client 
-    - PRF(MS< "client finished", hash(all handshake messages))
+    - PRF(MS, "client finished", hash(all handshake messages))
     - Server confirms information is correct
 - 8 Server
-    - PRF(MS< "server finished", hash(all handshake messages))
+    - PRF(MS, "server finished", hash(all handshake messages))
     - Client confirms informatio is correct
 
 ### Sending Data
@@ -118,8 +118,8 @@
 
 ### Issuer / CA example
 - Alice and Bob trust CA
-    - have CA<<CA>>
-- Alice sends CA<<Alice>>, Alice, MSG
+    - have CA<< CA >>
+- Alice sends CA<< Alice >>, Alice, MSG
     - Sign(MSG, $d_A$)
 - Bob verifies Cert
     - Alice is subject

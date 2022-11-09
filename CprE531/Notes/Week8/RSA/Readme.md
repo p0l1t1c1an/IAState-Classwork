@@ -43,7 +43,7 @@
     - ed = K * phi(n) + 1
 - $m^{k * phi(n) + 1}$ mod n
 - $m^{k * phi(n)}$ * m mod n
-- $m^{phi(n)}^k$ * m mod n
+- ${m^{phi(n)}}^k$ * m mod n
     - if m and n are relatively prime then
         - we get m 
     - Otherwise (not relatively prime)
