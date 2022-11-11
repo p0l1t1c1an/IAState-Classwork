@@ -40,3 +40,41 @@
 
 ![web](./web.png)
 
+
+### Vulnerabilities
+
+- Have common attacks
+- Limited to application
+- Can allow access to the computer 
+    - Privileged apps are target
+
+### Header Based
+- Common
+- Have freeform header 
+- Parsing data sent to it instead of fields like IP ...
+- Buffer overflow is common
+
+![buff](,/bufferoverflow.png)
+
+
+### Protocol Based
+- Application specific 
+- Part of authentication attack
+
+### Auth Based
+- Most common
+- Two types
+- Direct
+    - Using the application authentication mechanism to gain access \
+    - Password spraying
+- Indirect
+    - Using one of the other attack categories to circumvent authentication
+
+
+### Traffic Based
+- DOS
+- Sniffing
+
+
+
+
