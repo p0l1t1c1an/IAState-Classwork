@@ -24,8 +24,7 @@
 - SMTP is to move the data
 
 ### Commands
-    - 14 with only 4 charactes
-
+- 14 with only 4 charactes
 - HELO <domain> / Used by the sending system to identify itself
     - HELO eeclass.ee.iastate.edu
 - MAIL FROM: <path> / Identifies who the message is from
@@ -111,5 +110,6 @@
 - STARTTLS cause SMTP to use TLS
 - Auth provides a method users to authenticate with MTA
 - Typically used for remote access to MTA for relaying
+    - MTA rewritting address so that it comes back to that MTA
 - Being discussed as way to reduce spam
 
