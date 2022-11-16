@@ -34,7 +34,10 @@
 
 ### Spam
 - Uses learning to decide what content is spam.
-- System is “trained” to know is spam
+    - System is “trained” to know is spam
+    - Old idea is just based on words / misspelling
+    - Newer is Pictures and words
+    - # of recievers 
 - Spam filter will mark the message as spam.
 - Some User agents support spam detection and will move spam email into a spam folder
 
@@ -79,7 +82,13 @@
     - Medical records
 - Will either log, stop, or encrypt violating emails
 - Data Loss Prevention
-
+- Authentication as a service ideas
+    - Confirming the reciever
+    - Web portal sign-on
+    - Making suring content is going to who its meant to 
+    - Sensitive info is limited access
+    - Alert user for sending info to who they shouldn't
+    - (This is my ideas extended from things Doug said)
 
 ### Bypass Content Filter
 - Encryption
