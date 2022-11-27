@@ -67,3 +67,57 @@
     - Fails to Accept / Rejects incorrectly
     - Accepts incorrect biometric / Fils to reject
 
+
+# More Biometrics
+
+
+### Box Diagram
+
+- 2x2 of Action taken and the truth
+- Truth == correct biometric given or not
+- Action == Accept or Reject
+
+- Perfect world
+    - Only Accept when given correct bio
+    - Only reject when incorrect
+
+- False Reject
+    - Correct rejected
+    - Inconvenient
+    - FRR = Num of false rejects over number of should accepts
+    - FR/ShouldAccept
+
+- False Accept
+    - Incorrect accept 
+    - Scary security issue
+    - FAR = Num of false accepts over number of should rejects
+    - FA/ShouldReject
+
+
+
+### Profile Testing
+
+![test](./test_images.png)
+
+- N profiles to n test images
+- Some number on green diagnol is a false reject
+    - Correct user test image to profile
+    - Some of those will fail and to be counted
+- Some number of orange false accepts
+    - Incorrect user to profile
+    - Count those
+
+- FRR is harder to be accurate
+    - Only n possible cases
+- FAR is easier as in n squared
+
+
+
+### Similarity score
+- Setting threshold to get FAR and FRR values
+- Create histogram of similarity threshold for both FRR and FAR
+- Can see what is getting authenticated and how many false rejects and accepts 
+- Bottom graph in above image
+- All to right of thresh is accepted 
+- All to left is rejected
+
