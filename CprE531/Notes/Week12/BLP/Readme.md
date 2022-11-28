@@ -2,7 +2,6 @@
 
 # Access Control
 
-
 ### Policy Models
 - Formal way of deciding what an access control policy is
 
@@ -49,4 +48,16 @@ A can write to be B
 
 - Information can flow up to more secret class
 - Not downward
+
+
+### Latice 
+
+![diagram](./diagram.png)
+
+### Secure State
+- As long as the model is held up 
+- In a secure state
+
+
+
 
