@@ -80,13 +80,60 @@ ls command output
 
 ### Directories
 - Same permissions and user owner and group owner
-- read - list directory
-- exec - enter directory and access the files in the directory
-- write - create, delete, and modify the directory table entries
+- read == list directory
+- exec == enter directory and access the files in the directory
+- write == create, delete, and modify the directory table entries
     - still need to own / have permissions to the files
 
 - sticky bit
     - must own enclosed files/directories to delete them
+
+
+### System Calls
+- process 
+    - euid: daniels
+    - egid: faculty
+- Syscall open on /home/daniels/foo
+    - open( file, perms)
+        - perms == r, rw, w, append?
+    - Sees if file exists and checks permissions 
+        - Check if allow by euid or eqid
+- Add file descriptor in process table
+- If modify DAC after open 
+    - still have access
+- Can be root and then give up root privileges 
+    - Still modify file
+    - Least privilege
+
+### Breaking AC Rules
+- Setuid and Setgid bits on file entry
+- r-s r-x r-x   root root   /sbin/passwd
+    - change passwd for user 
+    - Sets who run it as root
+        - euid is root or owner of the file
+- r-x r-s 
+    - who set the gid to what is the group on the file
+    - mail program to read files
+
+
+### Access Control Lists
+- POSIX (Unix Standard)
+- Windows
+    - Deny permission
+    - Veto if in one group you are part of that has deny cannot access at all
+
+- List of (Subject, {perms}, subject ..._
+    - On a file
+    - Subjects are user id or groups
+    
+
+### Capabilities
+- Granted to a subject
+- Not stored to the object
+- unforgeable method of showing permissions 
+    - Ticket in kerberos
+- Transferable for permissions to other services
+
 
 
 
