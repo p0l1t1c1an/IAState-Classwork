@@ -10,7 +10,7 @@
 - Multiple copies 
 - Geographical Redundancy
 - Hard to know where to attack 
-
+- DDOS resistant by spawning servers and load balancing based on demand
 
 ### Microservices
 - Company use to have one may service as one / few programs 
@@ -21,4 +21,22 @@
 
 ### Final
 - From quizzes and projects
+
+
+
+# Start of Slides
+
+### Definition
+- NIST
+- Model fo renabling on-demand network access to a shared pool of configuable computing resources
+- Can be rapidly provisioned and released with minimal management effort
+
+
+### On-demand self service 
+- Provisioned without interactions with provider
+- Automated
+
+### Broad network access
+- Access over internet providing platform independent access
+
 
