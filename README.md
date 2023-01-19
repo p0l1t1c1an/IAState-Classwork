@@ -46,21 +46,33 @@ I lost those classes when I was testing FreeBSD-current compiling most code and 
     - Simplified view of cryptographic algorithms, PKI, Kerberos, IAM, blockchain, SAML, and attacks to these
     - Labs working within VMs set up as environments with infrastructure of these concepts and view how they function
 - CprE 430 - Network Protocols and Security
-    - Higher layers of networking than CprE 489 and attacks from all layers
-- CprE 531 - Information System Security
-    - Concepts of information security, so far fundemental ideas of trusted/trustworthy, entropy, and cryptographic analysis
-- CprE 536 - Computer and Network Forensics
-    - So far we have been going over information gather phase of digital forensics
-    - This class has a paper, 2 labs, and research project
-
-### Future Classes
-- SE 422 - Cloud Computing Software Development
-    - This is a DevOps course like CS 309 where everything is done in AWS and probably docker
-    - This goes further into detail about containerization, distributed computing, and management of these
+    - Abstract view point of mechanisms that operate on each layer of the OSI model
+    - Looking at protocols and software vulnerabilities/weaknesses in the fundament design like ARP and SMTP
+    - Defensive mechanisms put in place such as firewalls, WAF, and IPS
 - CprE 437 - Intro to Wireless Security
-    - Goes over wireless communication standards and attack surfaces of these (I don't have much info on this class)
-- CprE 432 or 532 - Cybersecurity Practicium or Information Warfare
-    - These are similar classes the first being a semester long CDC where teams build up a network for the first half and then start attacking and responding
-    - The other is similar to that of CprE230 + 231 going over building system security and using tools to test them
-    - I will be taking 432 if offered otherwise 532
+    - Wireless networks such as Cellular, WLAN, and PAN
+    - Looking at security challenges and attack points of these networks
+- CprE 531 - Information System Security
+    - Fundemental ideas of trusted/trustworthy, entropy, and cryptographic analysis
+    - The CIA triad and extended ideas like authenticity and nonrepudiation
+    - Hardware security mechanisms like cpu ring levels and virtual memory
+    - Encryption and KX algorithms like AES, RSA, and DH as well as hashing algorithms like SHA
+    - Look at certificates, verification of signatures, and functioning of TLS 
+    - Authenitcation models like RBAC, PBAC, MAC, and DAC as well as inner working of many MFA methods like biometrics and hardware tokens
+- CprE 536 - Computer and Network Forensics
+    - Goes over digital forensics ideas like watermarking and ip traceback
+    - Analyzing hardware compenents like harddrives, ssd, and memory
+    - Finding hidden information in file systems
+    - Projects use FTK and Encase
+- CprE 532 - Information Warfare
+    - This is an offensive and defensive course looking at how attackers utilize the entirety of IT infrastructure
+    - We go over attack methodologies and utilizing tools like Metasploit
+    - We go over abilities to mitigate attacks and incident response techniques
+    - With labs on virtual machines (this is similar to encompassing 230, 231, and 331 with more complexity)
 
+
+#### Software Engineering / Cloud
+- SE 422 - Cloud Computing Software Development
+    - Team based project course going over cloud concepts like rapid elasticity and using AWS
+    - This goes further into detail about containerization and distributed computing
+    - Focuses on abstract view cloud systems for software engineer and light amounts of inner workings of cloud systems
