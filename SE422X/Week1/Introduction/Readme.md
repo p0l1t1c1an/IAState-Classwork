@@ -31,6 +31,7 @@
 - Model fo renabling on-demand network access to a shared pool of configuable computing resources
 - Can be rapidly provisioned and released with minimal management effort
 
+## Characteristics
 
 ### On-demand self service 
 - Provisioned without interactions with provider
@@ -38,5 +39,40 @@
 
 ### Broad network access
 - Access over internet providing platform independent access
+
+### Resource Pooling
+- Resources provided to serve multiple users using multi-tenancy 
+- Multi-tenancy allows multiple users to use the same hardware/database
+
+### Rapid Elasticity
+- Resources can be provisioned rapidly and elastically
+- Resources can be rapidly scaled up or down based on demand
+- Rubber band idea
+
+### Measured Service
+- Resources provided to users on a pay-per-use model
+- The usage is measured and the user is charged based on some specific metric
+- Metrics
+    - What to measure 
+- Measurements
+    - Answer to metrics
+- Impossible to measure the software, but can measure the service
+    - Basically meta-data regarding the software running like uptime or users
+
+### Performance
+- Provides improved performance for applications
+- Resources available to applications can be scaled up or down based on the dynamic application workloads
+- Increasing instances based on how many users for load balancing
+- Measurements can show how many are needed
+
+### Reduced Cost
+- Cloud computing provides cost benefits for applications 
+    - Resources can be provisioned as required dynamically
+- Upfront investment purchase hardware to cover worst case requirements is avoided 
+
+
+### Outsourced Management
+- Allows the users to outsource the IT infrastructure requirements to external cloud providers
+- Succession planning
 
 
