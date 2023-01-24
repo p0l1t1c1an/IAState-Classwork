@@ -76,3 +76,15 @@
 - Succession planning
 
 
+### Reliability 
+- Applications deployed in cloud computing environments have a higher reliability 
+- The underlying IT infrastructure is professionally managed by the cloud service
+- Multiple instances
+
+
+### Multi-tenancy
+- The multi-tenanted approach of the cloud allows multiple users to make use of the same shared resources
+- In virtual multi-tenancy, computing and storage resources are shared among multiple users
+- In organic multi-tenancy, every component in the system architecture is shared among multiple tenants
+
+
