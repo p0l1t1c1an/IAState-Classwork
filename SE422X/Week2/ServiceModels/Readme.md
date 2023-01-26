@@ -129,3 +129,15 @@
     - Combines multiple clouds (public and private) that remain unique 
     - Bound together to offer application and data portability 
 
+
+### Example
+- IaaS  
+    - Amazon EC2 
+    - Google Compute Engine 
+    - Windows Azure VMs 
+- PaaS 
+    - Google App Engine 
+- SaaS  
+    - Salesforce
+
+
