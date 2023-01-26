@@ -359,7 +359,7 @@ Thinking like an attacker
 - Detection
 - Attribution
 
-
+### Detection
 - Hard to know when are being attacked
 - Often we know because of some other data (bank statement, audit, etc.)
 - Finding an attack in all of the data
@@ -367,20 +367,40 @@ Thinking like an attacker
 - Very little information sharing to know if there is a pattern across  organizations
 
 
+### Attribution
+- Very hard problem
+- Device attribution vs. people attribution
+- Easier to identify a device than the person
+- Often attacks come from place where information is hard to get
+- Many technologies allow users to hide
+- Need  forensics
+- Network
+- Computer
 
 
+### State of the art Defense
+- Most organizations practice **defense in depth**
+- However, we are still often just reacting to events
+- Sometimes we don’t even know they are attacking
 
 
+### Future (We are going - almost there)
+- Internet of things
+    - More devices than people connected to the Internet
+- Highly focused attacks
+    - People
+    - Infrastructure
+- New risk model
+    - Assume they are inside already
+- True cyber physical attack
 
-
-
-
-
-
-
-
-
-
-
-
+### Cyber-informed Thinking
+- Viewing any solution to a problem, process, or design through the lens of cybersecurity
+- Embrace adversarial thinking
+    - Ask ”what if?”
+    - Be creative in looking at vulnerabilities
+- Integration of cyber mitigation
+    - Raise the issue, you don’t need to know the solution
+- Small changes can often make big differences
+    - Make the non-cyber system more resilient
 
