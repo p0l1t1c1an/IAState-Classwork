@@ -52,5 +52,74 @@
 ### Mobile and Wireless
 - Mobile
     - Users can use network services while moving
+    - Point of attachment to network is router/AP
+- Wireless
+    - Communicate without using a wire
+        - Directly between nodes 
+        - Or between node and AP to AP an second node
+- Networking
+    - Protocols and algorithms enabling communication
+        - Link layer (MAC)
+        - Network
+        - Transport
+
+
+### Different in Wireless networks
+- High loss rates (collision or interference)
+- Restrictive spection regulations (country or scarcity)
+- Low transmission rates
+- Higher delay
+- Lower security
+- Shared and unbounded medium
+- Mobility
+    - Change point of attachment
+    - Finding a user
+- Limitation of access devices (power)
+
+
+### Current Tech
+- Telecomm
+- WLAN (802.11)
+- WPAN (Bluetooth and Zigbee)
+- Satellite
+
+
+### Licensed vs Unlicensed 
+- Mobile cellular is licensed
+    - GSM, UTMS (3G)
+    - LTE (4G)
+- WLAN and WPAN are unlicensed
+    - 2.4GHz
+        - 11b/g
+        - bluetooth and zigbee
+    - 5 GHZ
+        - 11a/n/ac/ax
+
+
+### Why Insecure
+- Channel broadcasts comms
+    - Eavesdropping, jamming and open to attacks
+- Mobility == not physically secured
+- Resources == Limited memory and processing resources
+- Accessibility == unattended
+
+
+### Extra
+
+- Wireless transceivers
+    - Base stations (BS) 
+    - Access points (AP) 
+    - Mobile stations (MS)
+- Spectrum
+    - Frequency bands for uplink and downlink
+    - Air interface
+- Management Entities
+    - Mobility management
+    - Power management
+    - Radio resource management
+    - Security
+- Deployment
+    - Frequency reuse
+    - Network design
 
 
