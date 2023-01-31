@@ -115,7 +115,7 @@
 
 ### Nyquist
 - Bandwidth B
-- Signal with M levels carry log_2(M) bits
+- Signal with M levels carry $log_{2}(M)$ bits
 - C = $2Blog_{2}(M)$
 
 - Up bandwidth, up data rate
