@@ -72,6 +72,7 @@
 - Physical access to information
     - At rest
     - In motion (lost laptops, tossed data)
+    - People have this
 - 3rd party physical access to information
     - Deliberate (untrusted insider)
     - Accidental (untrained insider)
@@ -79,4 +80,4 @@
     - Active (break-in)
     - Passive  (watching)
     - Social (use the network to cause 3rd party access)
-
+        - Users have sense of implied trust in devices
