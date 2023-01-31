@@ -9,7 +9,7 @@
 
 ### Signals
 - s(t) == amplitude over time
-    - Asin($2\pi\*f\*t+\phi$)
+    - A\*sin(2 \* $\pi$ \* f \* t + $\phi$)
     - Peak amplitute, A, max strength of signal over time
     - Frequency, f, rate at which signal repeats
     - phase, $\phi$, relative position signal has advanced
@@ -22,7 +22,7 @@
 
 ### Creating square wave
 - $s_{square}(t)$
-    - 4A/$\pi$ Sum(sin(2$\pi$\*f\*(2k-1)\*t)/(2k-1))  
+    - (4A / $\pi$) \* Sum(sin(2 \* $\pi$ \* f \* (2k-1) \* t) / (2k-1))  
 
 
 ![shape](./shape.png)
