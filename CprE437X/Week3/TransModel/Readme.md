@@ -82,11 +82,11 @@
 
 ### Antenna Gain 
 - Relationship between effective area and gain
-    - G = 4 \* $\pi$ \* $A_e$ / $\rho^{2}$  
-    - $\rho$ is wavelength
+    - G = 4 \* $\pi$ \* $A_e$ / $\lambda^{2}$  
+    - $\lambda$ is wavelength
 - Effective are is realate dto physical size, but differs among design
 - Eg Parabolic antenna may have effective area of half physical area
-- $\rho$ = c / f
+- $\lambda$ = c / f
 
 
 ### Wireless propagation
@@ -115,11 +115,11 @@
 
 ### Free Space Path Loss
 - Ideal case
-    - L = (4 \* $\pi$ \* d / $\rho$)^2
+    - L = (4 \* $\pi$ \* d / $\lambda$)^2
 
 - Combined with general model   
     - Friis transmission eq
-    - $P_r$ = ($P_t$ \* $G_t$ \* $G_r$ \* $\rho^{2}$) / ${(4 \* \pi \* d)}^{2}$
+    - $P_r$ = ($P_t$ \* $G_t$ \* $G_r$ \* $\lambda^{2}$) / ${(4 \* \pi \* d)}^{2}$
 
 ### Wireless information
 - How is information transferred wirelessly?
