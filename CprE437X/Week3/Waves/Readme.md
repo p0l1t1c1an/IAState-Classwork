@@ -29,15 +29,15 @@
 - $x_m$ is information signal
 - $x_c$ is carrier signal
 
-![amp](./a_ampl.png)
+![amp](./a_amp.png)
 
 - Change carrier signal amplitude to embedded info
 
-![freq](./f_ampl.png)
+![freq](./f_amp.png)
 
 - Change carrier signal frequency to embedded infor
 
-![phase](./p_ampl.png)
+![phase](./p_amp.png)
 
 
 
