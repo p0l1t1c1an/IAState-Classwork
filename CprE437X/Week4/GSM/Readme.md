@@ -53,13 +53,3 @@
 - Dishes for connecting to other BTS
 
 
-### Mobile service switching center (MSC)
-
-
-
-
-
-
-
-
-
