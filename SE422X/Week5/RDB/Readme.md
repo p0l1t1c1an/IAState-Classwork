@@ -50,3 +50,52 @@
 ### Widely Used RDB
 - MySQL
 
+
+### Entity Relationship Diagram
+
+![er](./ER.png)
+
+- Maps to databases
+    - Rectangle is entity table
+    - Oval is field in entity table
+    - Diamond is relationship table
+
+### Amazon RDS
+- PaaS 
+    - Don't care about underlying system
+- Many types of SQL
+- Multi-AZ (Availability Zones)
+    - Cluster
+    - Reduncdancy (second instance)
+    - Syncing between
+    - Auto failover
+- Scaling
+    - Vertically
+        - Scale-up or down depending on workload
+    - Horizontally
+        - Sharding / create db amoung multiple instances
+        - Writes go to primary
+        - Reads from replicas
+
+### Amazon Redshift
+- Massive scale fully managed data warehouse
+- OLAP
+- Massive parallel processing
+    - Parallelize queries across all resources
+- Columnar storage and compress
+    - Fast search on keys
+- Distribution
+    - cluster w/ each db having multiple tables
+    - Node is partitioned into slices, each slice is part of memory and disk
+    - Leader node manages data to slices
+- Distribution Strategies
+    - Even, rows are split across slices in round robin
+    - Key, rows are split based on values in one column
+    - All, full copy to each node
+
+
+### Amazon ElastiCache
+- Managed service to launch, manage, and scale distributed in-memory cache
+- Redis and memcached
+- improve preformance
+
