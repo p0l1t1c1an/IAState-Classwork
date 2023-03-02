@@ -78,5 +78,59 @@
         - All info that's relevant to an app can be read as single row 
 
 
+### Hbase
+- HBase table is consists of rows, which are indexed by the row key
+- Each row includes multiple column families  
+- Each column family includes multiple columns
+    - Cells are timestamped
+    - Delcared when creating table (can't be changed)
+- No fixed schema
+
+
+![hbase](./hbase.png)
+
+
+- Architecture
+    - Run multiple region servers
+    - Partition on the row key between regions
+    - One master and region nodes (slaves)
+        - Master stores meta data and region assignments
+    - Zookeeper for distributed state coordination
+        -  What is this?
+    - ROOT and META tables identify which region server is responsible for serving a read/write request for a specific row key
+
+
+![arch](./hbase-arch.png)
+
+
+### Graph Database
+- Model data in nodes and relationships
+- Nodes are data
+    - Have attributes
+- Relationship are represented by links in graph
+    - bewteen nodes
+    - Directed or undirected
+- Amazon Neptune
+    - Graph DB
+    - low latency
+
+
+![graph](./graph.png)
+
+### Neo4j
+- Popular graph db
+- Has Atomicity, Consistency, Isolation, Durability
+- Nodes and relationships have properties which are attributes
+- Nodes are labeled for different roles in domain
+- Query language called cypher for CRUD operations
+
+
+
+
+![compare](./compare.png)
+
+
+
+
 
 
