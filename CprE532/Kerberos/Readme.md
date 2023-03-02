@@ -60,3 +60,11 @@
         - Standard Identifier
 - Still open to dictionary attack
 
+
+### Active Directory
+- Uses Kerberos to obtain two tickets
+    - Ticket Granting  Ticket (TGT)
+    - Session Ticket (used to access resources)
+- Uses X.500 style directory service
+    - pass out information about users and applications after authentication
+
