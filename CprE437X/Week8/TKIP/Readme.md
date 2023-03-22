@@ -76,7 +76,7 @@
 
 
 ### 4-way handshake
-- Prove AP and STA know PSK without disclosing key
+- Prove AP and STA know PMK without disclosing key
 - Just send messages encrypted using PMK to prove knowledge
 - PMK lasts entire session
 - Handshake establishes PTK 
