@@ -1,5 +1,5 @@
 
-# MANET V2X
+# MANET
 
 
 ### Mobile Ad Hoc Networks
